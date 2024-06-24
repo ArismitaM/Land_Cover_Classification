@@ -1,5 +1,7 @@
 # Land Cover Classification
 
+## Analyzing Dataset
+
 I have analyzed the [data set](https://www.kaggle.com/datasets/aletbm/global-land-cover-mapping-openearthmap).
 
 **This is an image present in the dataset under the directory images/train**
@@ -19,17 +21,16 @@ Blue Channel
 
 **There is a corresponding label/train which has 1 layer with coloured label**
 
-The colours for each class are as follows:
-Color (HEX)  |	Class
------------------------
-#800000	     |	Bareland
-#00FF24	     |	Rangeland
-#949494	     |	Developed space
-#FFFFFF	     |	Road
-#226126	     |	Tree
-#0045FF	     |	Water
-#4BB549	     |	Agriculture land
-#DE1F07	     |	Building
+Colour(Hex)  | Class|
+-------------|----------|
+#800000	     |	Bareland |
+#00FF24	     |	Rangeland |
+#949494	     |	Developed space |
+#FFFFFF	     |	Road |
+#226126	     |	Tree |
+#0045FF	     |	Water |
+#4BB549	     |	Agriculture land |
+#DE1F07	     |	Building |
 
 ![Screenshot from 2024-05-18 19-20-38](https://github.com/abhisheks008/DL-Simplified/assets/146760434/f87a5c3e-2ad7-495d-8472-aee35c3e30e8)
 
