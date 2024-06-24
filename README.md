@@ -39,7 +39,17 @@ Colour(Hex)  | Class|
 
 ![Screenshot from 2024-05-18 19-20-38](https://github.com/abhisheks008/DL-Simplified/assets/146760434/f87a5c3e-2ad7-495d-8472-aee35c3e30e8)
 
+## Clustering (using DBScan)
 
+Label displaying class 2 (Rangeland)
+![Screenshot from 2024-05-31 10-43-17](https://github.com/abhisheks008/DL-Simplified/assets/146760434/cd5a808e-760d-465d-877e-a85fe76979e8)
 
+Clusters drawn on the label using DBScan
+![Screenshot from 2024-05-31 10-44-34](https://github.com/abhisheks008/DL-Simplified/assets/146760434/096187d0-1fcb-489c-9161-d28ca9d8d6c1)
 
+Drawing bounding boxes around clusters
+![Screenshot from 2024-06-01 11-00-27](https://github.com/abhisheks008/DL-Simplified/assets/146760434/a9867f79-698b-48ef-8751-cf118fb138a5)
+
+So, the `clustering.py` file draws clusters for each class and makes bounding boxes around them. The coordinates of the boxes are used to generate labels and these labels are converted into YOLO format for training.
+The YOLO format labels are then converted into Pascal VOC format for RetinaNet training.
 
