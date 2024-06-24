@@ -3,7 +3,8 @@
 ## Analyzing Dataset
 
 I analyzed the [data set](https://www.kaggle.com/datasets/aletbm/global-land-cover-mapping-openearthmap).
-There are 3 directories under in the data - `test`, `train` and `val` (stands for validation)
+The dataset contains .tif images (geospatial satellite images) and the labels are in colour-coded format.
+There are 3 directories under in the data - `test`, `train`, and `val` (stands for validation)
 - Training set: Used to train the model.
 - Validation set: Used to evaluate the model during training and tune hyperparameters.
 - Test set: Used to evaluate the model's performance after training is complete
