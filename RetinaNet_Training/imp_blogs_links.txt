@@ -1,0 +1,7 @@
+1. https://stackoverflow.com/questions/68245781/how-to-convert-yolo-annotations-txt-to-pascal-voc-xml
+
+☝️different ways to convert yolo annotations to Pascal VOC format that retinanet understands.
+
+2. https://medium.com/@van.evanfebrianto/how-to-train-custom-object-detection-models-using-retinanet-aeed72f5d701#3a51
+
+☝️Once u have converted the YOLO data to PASCAL VOC format - this should tell u how to train retinanet
